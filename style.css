@@ -21,7 +21,7 @@ body {
     background-color: var(--primary-color);
     position: fixed;
     width: 100%;
-    z-index: 2;
+    z-index: 4;
 }
 
 .navbar-brand {
@@ -67,9 +67,6 @@ body {
     --bs-btn-font-size: 1.5rem;
     --bs-btn-padding-x: 1rem;
     --bs-btn-padding-y: 1rem;
-    /* --bs-btn-active-shadow: none;
-    --bs-btn-box-shadow: none;
-    --bs-btn-focus-box-shadow: none; */
 }
 
 .input-group-text {
@@ -130,7 +127,6 @@ body {
 
 .explanation .d-flex {
     flex-direction: row;
-    /* justify-content: center; */
 }
 
 .explanation .d-flex img {
@@ -165,8 +161,6 @@ body {
 
 .carousel-item blockquote {
     position: relative;
-    /* text-align: center; */
-    /* height: 10rem; */
 }
 
 .special-offer {
@@ -343,7 +337,6 @@ footer .nav-link {
 
     .menu > h2 {
         font-size: 2.5rem;
-        /* font-weight: bold; */
     }
 
     .menu-cards {
@@ -445,7 +438,6 @@ footer .nav-link {
 
     .menu > h2 {
         font-size: 2.5rem;
-        /* font-weight: bold; */
     }
 
     .menu-cards {
@@ -519,11 +511,6 @@ footer .nav-link {
         justify-content: space-around;
     }
 
-    /* .menu-cards .card {
-        margin-right: auto!important;
-        margin-left: auto!important;
-    } */
-
     footer * {
         font-size: 1.5rem !important;
     }
@@ -538,14 +525,6 @@ footer .nav-link {
 
     .hero-section p {
         font-size: 1.2rem;
-    }
-
-    .feature {
-        /* flex-direction: column; */
-    }
-
-    .feature-item {
-        /* margin-bottom: 3rem; */
     }
 
     .feature-item h4 {
