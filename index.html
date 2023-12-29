@@ -16,16 +16,22 @@
     <nav class="navbar navbar-expand-sm">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">FlavorFiesta Bites</a>
-            <i class="bi bi-0-circle-fill"></i>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-
-            target="#collapsibleNavbar"></button>
-            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    <li><a class="nav-link" href="#section1">Home</a></li>
-                    <li><a class="nav-link" href="#section2">Features</a></li>
-                    <li><a class="nav-link" href="/login">Pricing</a></li>
-                    <li><a class="nav-link" href="/login">Contact</a></li>
-                </ul>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-
+            target="#offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" id="offcanvasNavbar">
+                <div class="offcanvas-header">
+                    <button class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav">
+                        <li><a class="nav-link" href="#section1">Home</a></li>
+                        <li><a class="nav-link" href="#section2">Features</a></li>
+                        <li><a class="nav-link" href="/login">Pricing</a></li>
+                        <li><a class="nav-link" href="/login">Contact</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>
